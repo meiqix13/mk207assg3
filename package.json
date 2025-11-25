@@ -2,7 +2,7 @@
   "name": "pet-heaven",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://meiqix13.github.io/mk207assg3",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "react": "^19.2.0",
