@@ -5,8 +5,8 @@
   "homepage": "https://meiqix13.github.io/mk207assg3",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^7.9.6",
     "react-scripts": "5.0.1"
   },

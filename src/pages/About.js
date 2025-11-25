@@ -47,13 +47,13 @@ const About = () => {
             <div className="story-image">
               <div className="picture-stack">
                 <div className="stack-image stack-1">
-                  <img src="/stack/stack1.jpg" alt="Happy adopted dog" />
+                  <img src={`${process.env.PUBLIC_URL}/stack/stack1.jpg`} alt="stack1" />
                 </div>
                 <div className="stack-image stack-2">
-                  <img src="/stack/stack2.jpeg" alt="Cute cat at shelter" />
+                  <img src={`${process.env.PUBLIC_URL}/stack/stack2.jpeg`} alt="stack2" />
                 </div>
                 <div className="stack-image stack-3">
-                  <img src="/stack/stack3.jpg" alt="Playful kitten" />
+                  <img src={`${process.env.PUBLIC_URL}/stack/stack3.jpg`} alt="stack3" />
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ const About = () => {
             {facilitiesData.map((facility, index) => (
               <div key={index} className="facility-card">
                 <div className="facility-image">
-                  <img src={facility.image} alt={facility.title} />
+                  <img src={`${process.env.PUBLIC_URL}${facility.image.replace(process.env.PUBLIC_URL, '')}`} alt={`stack${index + 1}`} />
                   <div className="facility-overlay">
                     <div className="facility-icon">{facility.icon}</div>
                   </div>

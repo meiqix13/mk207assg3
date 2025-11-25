@@ -18,7 +18,7 @@ const Header = ({ user, onLogout }) => {
     <header className="header">
       <div className="header-content container-wide">
         <Link to="/" className="logo">
-          <img src="/pet_heaven_logo.PNG" alt="Pet Heaven Logo" className="logo-image" />
+          <img src={`${process.env.PUBLIC_URL}/pet_heaven_logo.PNG`} alt="Pet Heaven Logo" className="logo-image" />
           <span className="logo-text">Pet Heaven</span>
         </Link>
 

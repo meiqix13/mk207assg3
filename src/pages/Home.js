@@ -9,19 +9,19 @@ const Home = () => {
     {
       title: "Every Pet Deserves a Forever Home",
       subtitle: "Welcome to Pet Heaven, where abandoned pets find hope, care, and loving families.",
-      image: "/hero-slides/hero_1.jpg",
+      image: `${process.env.PUBLIC_URL}/hero-slides/hero_1.jpg`,
       slogan: "Give a paw, change a life"
     },
     {
       title: "Find Your Perfect Companion",
       subtitle: "Browse through our loving pets waiting for their forever homes.",
-      image: "/hero-slides/hero_2.jpg",
+      image: `${process.env.PUBLIC_URL}/hero-slides/hero_2.jpg`,
       slogan: "Love has four paws"
     },
     {
       title: "Make a Difference Today",
       subtitle: "By adopting, you save a life and make room for another animal in need.",
-      image: "/hero-slides/hero_3.jpeg",
+      image: `${process.env.PUBLIC_URL}/hero-slides/hero_3.jpeg`,
       slogan: "Adopt, don't shop"
     }
   ];

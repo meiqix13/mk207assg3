@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import './App.css';
 
 // Components
@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <ScrollToTop />
       <div className="App">
         <Header user={user} onLogout={handleLogout} />
@@ -55,7 +55,7 @@ function App() {
         </main>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
