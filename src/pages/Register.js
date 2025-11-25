@@ -353,7 +353,7 @@ const Register = ({ onLogin }) => {
             </div>
 
             <div className="form-actions">
-              <button type="submit" className="btn btn-primary btn-large btn-submit">
+              <button type="submit" className="btn btn-primary btn-large btn-block">
                 🎉 Join Pet Heaven Community
               </button>
               <button

@@ -297,7 +297,6 @@
   line-height: 1.7;
 }
 
-/* Process Section - Timeline with Better Design */
 .process-section {
   background: linear-gradient(135deg, #FFF4ED 0%, #FFE5E5 100%);
   padding: 6rem 0;
@@ -393,7 +392,6 @@
   }
 }
 
-/* CTA Section - Dark with Paw Pattern */
 .about-cta {
   background: linear-gradient(135deg, #2D3142 0%, #1a1d2e 50%, var(--text-primary) 100%);
   padding: 6rem 0;
